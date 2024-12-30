@@ -22,8 +22,8 @@ public class Confirmation_Class {
 
     public void screenShot() throws IOException, InterruptedException {
         Thread.sleep(5000);
-        File src = ts.getScreenshotAs(OutputType.FILE);
-        File des = new File("C:\\Users\\hp\\IdeaProjects\\Adactin_Automation\\target\\pages.png");
-        FileUtils.copyFile(src,des);
+        File source = ts.getScreenshotAs(OutputType.FILE);
+        File destination = new File("C:\\Users\\hp\\IdeaProjects\\Adactin_Automation\\target\\pages.png");
+        FileUtils.copyFile(source,destination);
     }
 }
